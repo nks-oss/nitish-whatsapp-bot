@@ -59,7 +59,7 @@ async function sendMainMenu(to) {
     [{ id:"financial",title:"1️⃣ Financial" },{ id:"building",title:"2️⃣ Building Material" },{ id:"trust",title:"3️⃣ Trust / NGOs" }]
   );
   await sendButtons(to, "More options:", [
-    { id:"consult",title:"4️⃣ Book Consultation" },
+    { id:"consult",title:"4️⃣ Consultation" },
     { id:"talk",title:"5️⃣ Talk to Nitish" }
   ]);
 }
