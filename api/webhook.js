@@ -56,7 +56,7 @@ async function handleMessage(from, text) {
 async function sendMainMenu(to) {
   await sendButtons(to,
     "👋 *Namaste! Welcome to Nitish Kumar's Business Bot*\n\n_How can I help you today?_",
-    [{ id:"financial",title:"1️⃣ Financial" },{ id:"building",title:"2️⃣ Building Material" },{ id:"trust",title:"3️⃣ Trust / NGOs" }]
+    [{ id:"financial",title:"1️⃣ Financial" },{ id:"building",title:"2️⃣ BuilTech" },{ id:"trust",title:"3️⃣ Trust / NGOs" }]
   );
   await sendButtons(to, "More options:", [
     { id:"consult",title:"4️⃣ Consultation" },
